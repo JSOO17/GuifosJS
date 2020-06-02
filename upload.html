@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Upload</title>
+	<meta charset="utf-8">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Fontawesome -->
+	<script src="https://kit.fontawesome.com/20c922313e.js" crossorigin="anonymous"></script>
+	<!-- recordRTC -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.5.6/RecordRTC.js"></script>
+</head>
+<body>
+	<div class="info">
+		<!-- Barra superior -->
+		<p>Bienvenidos/as a Guifos.com!------------------- Donde los gifs están.//// Número de visitas: 2145423</p>
+	</div>
+	<div class="container">
+		<!-- Logo y botones -->
+		<div id="header">
+			<div class="flechas">
+				<a href="index.html"><i class="fas fa-arrow-left"></i></a>
+				<a href="index.html"><img id="logo" src="img/gifOF_logo.png" alt="logo"></a>
+			</div>
+		</div>
+		<div id="crearGif">
+			<p class="searched">Crear Guifos</p>
+			<div id="child">
+				<div class="titulo-crear">
+					<img src="img/windowimg.png" alt="window">
+					<p class="titulo-bold">Aqui podrás crear tus propios guifos</p>
+				</div>
+				<div class="label-crear">
+					<p> Crear tu <span class="titulo-bold">Guifo</span> es muy fácil, graba cualquier imagen con tu cámara y obtén
+				guifos personalizados. Los pasos para crear tu guifo son:</p>
+					<div >
+						<p><span class="titulo-bold">1)</span> Dar permiso de acceso a la cámara ( solo por el tiempo de uso)</p>
+						<p><span class="titulo-bold">2)</span> Capturar tu momento guifo</p>
+						<p><span class="titulo-bold">3)</span> Revisar el momento</p>
+						<p><span class="titulo-bold">4)</span> Listo para subir y compartir</p>
+						<p>¿Quieres comenzar a crear tu <span class="titulo-bold">guifo</span> ahora?</p>
+					</div>
+				</div>
+			</div>
+			<div id="botones-crear">
+				<button class="btn-rosado btn-blanco" id="cancelar">Cancelar</button>
+				<button class="btn-rosado" id="comenzar">Comenzar</button>
+			</div>
+		</div>
+		<div>
+			<div class="boxsug">
+                <input type="text" class="input-sug" placeholder="Mis Guifos">
+            </div>
+            <div id="container-sug" class="container-sug">
+            </div>
+		</div>
+	</div>
+
+	
+
+
+
+	<script src="javascript/upload.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+.dark {
+    background-color: #14043c;
+    font-family:  'Chakra Petch', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.dark .searched, .dark .titulosug, .dark .info, .dark .titletend{
+    color: #FFFFFF;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.dark .mine{
+    color: white;
+    border: #04003d;
+}
+.dark .mine:hover{
+    outline: 1px dotted #FFF;
+}
+.dark .mine:active{
+    color: rgba(17, 0, 56, 1.5);
+}
+.dark .btn-rosado{
+    color: white;
+    background: #EE3EFE;
+    border: 1px solid #110038;
+}
+.dark .btn-rosado:hover{
+    outline: 1px dotted #110038;
+}
+.temas{
+    color: white;
+}
+.dark .btnSearch-dark{
+    color: white !important;
+    background: #EE3EFE !important;
+}
+
+.dark .imgsug button{
+    background: #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #4C2F99, inset 2px 2px 0 0 #FFFFFF;
+    color: white;
+}
+
+
+/*2124B3*/
+.dark .search{
+    background:#B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+.dark #resultado{
+    background:#B4B4B4;
+}
+
+.dark .botbuscar{
+    font-family:  'Chakra Petch', sans-serif;
+    color:#808080;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .input-sug{
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #4C2F99, inset 2px 2px 0 0 #110038;
+    color: black;
+}
+
+.dark .sugerencias{
+    width: 100%;
+    height: 12px;
+    padding: 10px;
+    font-size: 12px;
+    font-family:  'Chakra Petch', sans-serif;
+    background: #FFFAFE;
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+
+.dark .tendencias{
+    width: 100%;
+    height: 12px;
+    padding: 10px;
+    font-size: 12px;
+    font-family:  'Chakra Petch', sans-serif;
+    background: #FFFAFE;
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}

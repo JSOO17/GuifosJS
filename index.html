@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>GifOS</title>
+	<meta charset="utf-8">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+	<!-- Fontawesome -->
+	<script src="https://kit.fontawesome.com/20c922313e.js" crossorigin="anonymous"></script>
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/dark.css">
+</head>
+<body>
+	<div class="info">
+		<!-- Barra superior -->
+		<p>Bienvenidos/as a Guifos.com!------------------- Donde los gifs están.//// Número de visitas: 2145423</p>
+	</div>
+	<div class="container">
+		<!-- Logo y botones -->
+		<div id="header">
+			<a  href="index.html"><img id="logo" src="img/gifOF_logo.png" alt="logo"></a>
+			<div class="header">
+                <ul class="botones">
+                    <li class="bloque"><a href="upload.html" class="btn-rosado">Crear Guifos</a>
+                    <li class="bloque2"><button type="button" class="btn-rosado"><label for="btn-menu">Elegir tema</label></button></li>
+                    <li class="flecha btn-rosado" id="btn-temas"><label for="btn-menu"><img src="img/dropdown.svg" alt="flecha"></label></li>
+                    <li class="bloque"><button id="mine" class="mine"><span class="raya">M</span>is Guifos</button></li>
+                </ul>
+            </div><input type="checkbox" id="btn-menu">
+            <div class="temas">
+                <a href="" id="dia">Sailor Day</a>
+                <a href="" id="noche">Sailor Night</a>
+            </div>
+		</div>
+
+		<!-- Buscador -->
+
+		<div class="search">
+			<div class="searched"><p>Buscar</p></div>
+			<div class="searcher">
+				<input type="text" id="search" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…">
+				<button type="submit" id="btnSearch" class="botbuscar"><img src="img/lupa_inactive.svg" alt="lupa">  Buscar</button>
+			</div>
+			<div id="resultado">
+				<p class="resultados"></p>
+				<p class="resultados"></p>
+				<p class="resultados"></p>
+			</div>
+		</div>
+		<div id="busqueda">
+			
+		</div>
+
+		<!-- Sugerencias -->
+
+		<div id="sugerencias">
+			<div class="boxsug">
+                <input type="text" class="input-sug" placeholder="Hoy te sugerimos:">
+            </div>
+            <div id="container-sug" class="container-sug">
+            </div>
+		</div>
+		<div id="tendencias">
+			<div>
+                <input type="text" id="tendencia" class="input-sug" placeholder="Tendencias:">
+            </div>
+            <div id="container-tend">
+            </div>
+		</div>
+		<div id="misguifos">
+			<div class="boxsug">
+                <input type="text" class="input-sug" placeholder="Mis guifos">
+            </div>
+            <div id="container-misGuifos" class="container-sug">
+            </div>
+		</div>
+	</div>
+	
+	<!---->
+<script src="javascript/themes.js"></script>
+ <script src="javascript/api.js"></script> 
+ <script src="javascript/themes.js"></script>
+</body>
+</html>
